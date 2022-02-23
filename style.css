@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css2?family=Kurale&display=swap);
+
+html {
+    font-family: 'Kurale', serif;
+    font-weight: 300;
+    background-color: #150d0b;
+}
+
+h1,h2,h3,h4,h5,h6,figure,ul{
+    margin:0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Colores de los links*/
+
+a{
+    color: #f9ac4c;
+}
+a:hover{
+    color: #b8860b;
+}
+a:visited{
+    color: #c0c0c0;
+}
+a:active{
+    color: #150d0b;
+}
+
+/* -------- */
+
+.menu-item{
+    display: inline-block;
+}
+
+/* ancho de página */
+
+.contenedor{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* logo */
+
+.logo{
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    height: 280px
+}
+
+/* posición y estilo del menú */
+
+nav{
+    background-color: #331110;
+    text-align: center;
+}
+.menu-item{
+    text-transform: uppercase;
+}
+.menu-item a div{
+    padding: 30px;
+    font-size: 20px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #f9ac4a;
+}
+.menu-item:hover{
+    background-color: #150d0b;
+}
+
+/* estilo para el artículo */
+
+#seccion{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+#left{
+    width: 45%;
+    background-color: #331110;
+    float: left;
+    margin: 25px;
+}
+
+#right{
+    width: 45%;
+    background-color: #331110;
+    float: left;
+    margin: 25px;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.art-image{
+    padding: 9px;
+}
+.art-cont{
+    color: #FFF;
+    font-size: 20.05px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
